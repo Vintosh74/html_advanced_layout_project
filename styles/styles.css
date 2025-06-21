@@ -295,3 +295,108 @@ body {
     font-size: 1rem;
     cursor: pointer;
 }
+
+/* === FAQ Section === */
+.faq-section {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.faq-main-block {
+    border: 5px solid black; /* Outer black border */
+    padding: 20px;
+    margin: 0 auto; /* Center the block */
+    max-width: 800px; /* Adjust as needed */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.faq-main-block h2 {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    border: 2px solid #66a3ff; /* Blue border for the title */
+    display: inline-block;
+    padding: 0.5rem 1rem;
+}
+
+.faq-row-block {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 2rem; /* Spacing between row blocks */
+    width: 100%;
+}
+
+.faq-item-block {
+    background-color: white;
+    border: 2px solid black; /* Black border around each item block */
+    padding: 1.5rem;
+    flex: 1; /* Distribute space equally */
+    max-width: 350px; /* Adjust as needed */
+    text-align: left;
+}
+
+.faq-item-block h3 {
+    border: 2px solid #66a3ff; /* Blue border for heading */
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+}
+
+.faq-item-block p {
+    border: 2px solid #cc66ff; /* Purple border for text */
+    padding: 0.5rem;
+}
+
+/* === Footer Section === */
+.footer {
+    padding: 2rem;
+    background-color: #f0f0f0; /* Light background for the footer */
+    text-align: center;
+}
+
+.footer-global-block {
+    border: 5px solid black; /* Outer black border */
+    padding: 20px;
+    margin: 0 auto; /* Center the block */
+    max-width: 900px; /* Adjust as needed */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-row-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 2rem; /* Space between row block and text */
+}
+
+.footer-logo {
+    border: 2px solid #00ff00; /* Green border for the logo */
+    padding: 15px 30px;
+    background-color: white;
+    font-weight: bold;
+}
+
+.footer-social-media {
+    display: flex;
+    gap: 1rem;
+}
+
+.footer-social-media img {
+    width: 70px; /* Adjust size as needed */
+    height: 70px; /* Adjust size as needed */
+    border: 2px solid #ff0000; /* Red border for social media images */
+    padding: 5px;
+}
+
+.footer-text {
+    border: 2px solid #cc66ff; /* Purple border for the text */
+    padding: 1rem 2rem;
+    display: inline-block; /* To make the border fit the text */
+    margin-top: 1rem;
+}
